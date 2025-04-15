@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ромал Фармани](https://up.htmlacademy.ru/htmlcss-individual/2/user/2496861).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий Казанцев`(https://htmlacademy.ru/profile/id24186).
 
 ---
 
