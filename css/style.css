@@ -739,13 +739,13 @@ img {
   list-style: none;
 }
 
-.breadcrumbs-item+.breadcrumbs-item {
+.breadcrumbs-item + .breadcrumbs-item {
   position: relative;
 
   margin-left: 10px;
 }
 
-.breadcrumbs-item+.breadcrumbs-item::before {
+.breadcrumbs-item + .breadcrumbs-item::before {
   content: "";
   position: absolute;
   top: calc(50% - 4px);
@@ -854,15 +854,15 @@ img {
   object-fit: cover;
 }
 
-.card-link:hover+.card-img {
+.card-link:hover + .card-img {
   opacity: 0.6;
 }
 
-.card-link:active+.card-img {
+.card-link:active + .card-img {
   opacity: 0.3;
 }
 
-.card-link:focus:not(:active)+.card-img {
+.card-link:focus:not(:active) + .card-img {
   outline: 3px solid #83b3d3;
 }
 
@@ -1107,6 +1107,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
   padding: 0;
+
 
   color: #333333;
   background-color: #ffffff;
@@ -1419,7 +1420,7 @@ img {
   list-style: none;
 }
 
-.filter-item+.filter-item {
+.filter-item + .filter-item {
   margin-top: 11px;
 }
 
@@ -1519,35 +1520,35 @@ img {
   background-image: url("../images/icons/check.svg");
 }
 
-.control-input[type="checkbox"]:hover+.control-lead::before {
+.control-input[type="checkbox"]:hover + .control-lead::before {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control-input[type="checkbox"]:active+.control-lead::before {
+.control-input[type="checkbox"]:active + .control-lead::before {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.control-input:focus+.control-lead::before {
+.control-input:focus + .control-lead::before {
   outline: 3px solid #83b3d3;
 }
 
-.control-input:checked+.control-lead::after {
+.control-input:checked + .control-lead::after {
   display: block;
 }
 
-.control-input[disabled]+.control-lead {
+.control-input[disabled] + .control-lead {
   opacity: 0.3;
 }
 
-.control-input[disabled]:hover+.control-lead::before {
+.control-input[disabled]:hover + .control-lead::before {
   background-color: #ffffff;
 }
 
-.control-input[type="radio"]+.control-lead::before {
+.control-input[type="radio"] + .control-lead::before {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]+.control-lead::after {
+.control-input[type="radio"] + .control-lead::after {
   background-color: #3f5e72;
   background-image: none;
   background-clip: content-box;
